@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  color: floralwhite;
+  height: 100vh;
+  padding: 0;
+  background: url("img/patchwork-quilt.svg");
+  background-size: 25vh;
+  align-items: center;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height:100%;
+  background: url("img/hot-water-bottle.svg") no-repeat center center;
+  background-size: contain;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 28vh;
+  padding-bottom: 4vh;
+}
+
+.titles__main {
+  padding-bottom: 1vh;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 6.5vh;
+  color: floralwhite;
+}
+.titles__sub {
+  font-size: 3vh;
+  font-family: 'Kranky', cursive;
+}
+
+.form__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 1vh;
+}
+
+.input__box {
+  width: 30vh;
+  font-family: 'Caveat Brush', cursive;
+  /* font-weight: bold; */
+  font-size: 3.5vh;
+  color: floralwhite;
+  text-align: center;
+  background-color: #951fff;
+  border: 0.5vh solid #b666ff;
+  border-radius: 3vh;
+}
+.input__box::placeholder {
+  color:#b666ff;
+}
+.input__box:focus {
+  outline: none;
+}
+
+.input__submit {
+  font-size: 3.5vh;
+  font-family: 'Caveat Brush', cursive;
+  color: floralwhite;
+  text-align: center;
+  background-color: #951fff;
+  border: 0.5vh solid #b666ff;
+  border-radius: 3.5vh;
+}
+
+.words__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 42vh;
+  min-height: 26vh;
+  max-height: 34vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  transition: opacity 0.2s linear;
+}
+
+.words {
+  max-height: 34vh;
+  font-size: 5vh;
+  font-family: 'Caveat Brush', cursive;
+  overflow: auto;
+  scrollbar-arrow-color: floralwhite;
+  transition: opacity 0.2s linear;
+}
+
+.hidden {
+  opacity: 0;
+}
