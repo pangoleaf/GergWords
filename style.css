@@ -78,13 +78,16 @@ body {
 }
 
 .input__submit {
+  width: 7vh;
   font-size: 3.5vh;
   font-family: 'Caveat Brush', cursive;
-  color: floralwhite;
+  color: #b666ff;
   text-align: center;
   background-color: #951fff;
   border: 0.5vh solid #b666ff;
   border-radius: 3.5vh;
+  /* padding-left: 1.5vh;
+  padding-right: 1.5vh; */
 }
 
 .words__container {
