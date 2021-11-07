@@ -58162,3 +58162,4 @@ const words = {
     "zulus"
   ]
 }
+export default words;

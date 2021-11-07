@@ -1,5 +1,7 @@
 'use strict';
 
+import words from './words.js';
+
 const initialsForm = document.querySelector('.initials__form');
 const initialsBox = document.querySelector('.input__box');
 const wordsBox = document.querySelector('.words');
